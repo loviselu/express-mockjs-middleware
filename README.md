@@ -1,15 +1,15 @@
-# express-mock-middleware
+# express-mockjs-middleware
 
 An Express mockjs middleware
 
 ## Install
 ```
-npm install express-mock-middleware
+npm install express-mockjs-middleware
 ```
 
 ## Usage 
 ```js
-var expressMock = require('express-mock-middleware');
+var expressMock = require('express-mockjs-middleware');
 app.use('/mock',expressMock(path.resolve(__dirname,'../mock')));
 
 ```
